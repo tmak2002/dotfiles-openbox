@@ -35,6 +35,9 @@ dotfiles:
     src: config/openbox
     dst: ~/.config/openbox
     chmod: '755'
+  f_ssh-agent.service:
+    src: config/systemd/user/ssh-agent.service
+    dst: ~/.config/systemd/user/ssh-agent.service
 profiles:
   tmak2002:
     dotfiles:
@@ -47,3 +50,4 @@ profiles:
     - f_fehbg
     - d_backgrounds
     - d_openbox
+    - f_ssh-agent.service
