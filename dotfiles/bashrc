@@ -1,0 +1,21 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# aliases
+alias pac='sudo pacman'
+alias dotdrop='$HOME/git/dotfiles/dotdrop.sh --cfg=$HOME/git/dotfiles/config.yaml'
+
+# history
+export HISTCONTROL='ignoreboth'
+export HISTIGNORE='l:ls:cd:exit'
+
+function parse_git_branch {
+    ref=$(git symbolic-ref HEAD 2> /dev/null) || return
+    echo "("${ref#refs/heads/}") "
+}
+
+PS1='\e[0;36m╭─> \e[0;31m{ \u@\h } \e[0;34m[ \W ] $(parse_git_branch) \n\e[0;36m╰─\$ '

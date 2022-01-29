@@ -1,0 +1,7 @@
+[user]
+	name = tmak2002
+	email = tmak2002@mailbox.org
+[core]
+	editor = nano
+[init]
+	defaultBranch = main

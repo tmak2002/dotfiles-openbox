@@ -3,4 +3,47 @@ config:
   create: true
   dotpath: dotfiles
 dotfiles:
+  f_bashrc:
+    src: bashrc
+    dst: ~/.bashrc
+    chmod: '755'
+  f_gitconfig:
+    src: gitconfig
+    dst: ~/.gitconfig
+    chmod: '755'
+  f_xinitrc:
+    src: xinitrc
+    dst: ~/.xinitrc
+  d_zentile:
+    src: config/zentile
+    dst: ~/.config/zentile
+  d_polybar:
+    src: config/polybar
+    dst: ~/.config/polybar
+  d_jgmenu:
+    src: config/jgmenu
+    dst: ~/.config/jgmenu
+  f_fehbg:
+    src: fehbg
+    dst: ~/.fehbg
+    chmod: '755'
+  d_backgrounds:
+    src: config/backgrounds
+    dst: ~/.config/backgrounds
+    chmod: '755'
+  d_openbox:
+    src: config/openbox
+    dst: ~/.config/openbox
+    chmod: '755'
 profiles:
+  tmak2002:
+    dotfiles:
+    - f_bashrc
+    - f_gitconfig
+    - f_xinitrc
+    - d_zentile
+    - d_polybar
+    - d_jgmenu
+    - f_fehbg
+    - d_backgrounds
+    - d_openbox
