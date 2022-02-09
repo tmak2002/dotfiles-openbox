@@ -1,2 +1,1 @@
-|--------|-------------|
-| ranger | Filemanager |
+ranger | Filemanager
