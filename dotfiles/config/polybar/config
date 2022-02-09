@@ -18,9 +18,8 @@
 
 [colors]
 background = #0d1b6b
-background-alt = #444
-foreground = #dfdfdf
-foreground-alt = #555
+;foreground = #dfdfdf
+foreground = #73e600
 primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
@@ -49,8 +48,6 @@ module-margin-left = 1
 module-margin-right = 2
 
 font-0 = fixed:pixelsize=10;1
-font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = siji:pixelsize=10;1
 
 modules-left = jgmenu polywins
 modules-center = date

@@ -5,7 +5,7 @@ remove_decorations = false
 gap = 1
 
 # How much to increment the master area size.
-proportion = 0.1
+proportion = 0.0
 
 [keybindings]
 # key sequences can have zero or more modifiers and exactly one key.
