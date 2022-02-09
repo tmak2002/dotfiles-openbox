@@ -2,3 +2,4 @@
 - spotify   | Music Player
 - alacritty | terminal
 - firefox   | browser
+- feh       | Wallpaper setter
