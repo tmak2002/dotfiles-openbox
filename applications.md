@@ -3,3 +3,6 @@
 - alacritty | terminal
 - firefox   | browser
 - feh       | Wallpaper setter
+- dmenu     | Application launcher
+- polybar   | Taskbar
+- 
