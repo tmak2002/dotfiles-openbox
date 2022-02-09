@@ -1,4 +1,4 @@
-ranger    | Filemanager
-spotify   | Music Player
-alacritty | terminal
-firefox   | browser
+- ranger    | Filemanager
+- spotify   | Music Player
+- alacritty | terminal
+- firefox   | browser
