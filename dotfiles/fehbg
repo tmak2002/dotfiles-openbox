@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-scale '/home/torben/.config/backgrounds/galaxy.jpg' 
+feh --no-fehbg --bg-scale '/home/torben/.config/backgrounds/cyberpunk.jpg' 

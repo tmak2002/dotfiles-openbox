@@ -2,7 +2,7 @@
 remove_decorations = false
 
 # Adds spacing between windows
-gap = 0
+gap = 1
 
 # How much to increment the master area size.
 proportion = 0.1

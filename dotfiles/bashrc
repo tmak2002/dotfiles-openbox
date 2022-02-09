@@ -10,7 +10,7 @@ export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 # aliases
 alias pac='sudo pacman'
-alias dotdrop='$HOME/git/dotfiles/dotdrop.sh --cfg=$HOME/git/dotfiles/config.yaml'
+alias dotdrop='$HOME/Git/dotfiles/dotdrop.sh --cfg=$HOME/Git/dotfiles/config.yaml'
 
 # history
 export HISTCONTROL='ignoreboth'
