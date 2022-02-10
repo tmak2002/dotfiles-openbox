@@ -38,10 +38,6 @@ dotfiles:
   f_ssh-agent.service:
     src: config/systemd/user/ssh-agent.service
     dst: ~/.config/systemd/user/ssh-agent.service
-  f_uca.xml:
-    src: config/Thunar/uca.xml
-    dst: ~/.config/Thunar/uca.xml
-    chmod: '600'
 profiles:
   tmak2002:
     dotfiles:
@@ -55,4 +51,3 @@ profiles:
     - d_backgrounds
     - d_openbox
     - f_ssh-agent.service
-    - f_uca.xml
