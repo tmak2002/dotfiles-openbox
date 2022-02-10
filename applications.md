@@ -1,8 +1,12 @@
 - ranger    | Filemanager
 - spotify   | Music Player
-- alacritty | terminal
-- firefox   | browser
+- alacritty | Terminal
+- firefox   | Browser
 - feh       | Wallpaper setter
 - dmenu     | Application launcher
 - polybar   | Taskbar
+- KeePassXC | Password Manager
+- VSCodium  | IDE
+- Geeqie    | Image Viewer
+- Discord   | Messaging
 - 
